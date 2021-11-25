@@ -4,33 +4,33 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
+      .titulo-principal__numero(data-aos="flip-up")
         span 2
       h1  Análisis organizacional
 
-    Card2(
+    Card2(data-aos="fade-down" data-aos-duration="600")(
       :img="require('@/assets/curso/tema2-img1.svg')"
       text="Es un procedimiento que ayuda a entender mejor el desempeño de una organización basado en información recolectada con las técnicas de diagnóstico. La metodología del análisis organizacional permite formular estrategias que convertidas en un plan de trabajo ayudan a la empresa a lograr sus objetivos."
     )
 
-    p.mb-5
+    p.mb-5(data-aos="fade-down" data-aos-duration="600")
       strong En la figura que sigue se representa el proceso de análisis estratégico.
 
-    .titulo-sexto.color-acento-botones.mb-4
+    .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-down" data-aos-duration="600")
       h5 Figure 3
       span Análisis estratégico
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down" data-aos-duration="600")
       .col-lg-8
         figure
           img(src="@/assets/curso/tema2-img2.svg")
 
-    Separador
+    Separador(data-aos="fade-down" data-aos-duration="600")
 
-    #t_2_1.titulo-segundo.color-primario
+    #t_2_1.titulo-segundo.color-primario(data-aos="fade-down" data-aos-duration="600")
       h2 2.1  Herramientas de análisis estratégico
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left" data-aos-duration="600")
       .col-md-8
         Card(
           title="Análisis matriz DOFA cruzada"
@@ -38,37 +38,37 @@
           description="Esta matriz considera la identificación de cuatro tipos de estrategias con base en la matriz DOFA y se puede observar en la siguiente presentación.")
 
     .row.justify-content-center.briefcase-header
-      .col-lg-4.col-5
+      .col-lg-4.col-5(data-aos="fade-up" data-aos-duration="900" data-aos-delay="300")
         figure
           img(src="@/assets/curso/tema2-img4.svg")
     .row.justify-content-center.mb-5
-      .col-lg-7.briefcase-container
+      .col-lg-7.briefcase-container(data-aos="zoom-in" data-aos-duration="200" data-aos-delay="300")
         .row
           .indicador__container
             .indicador--click
-          .col.briefcase.box-1.clicker(@click="updateModal(require('@/assets/curso/tema2-img9.svg'), 'Estrategia ofensiva:', content1)")
+          .col.briefcase.box-1.clicker(@click="updateModal(require('@/assets/curso/tema2-img9.svg'), 'Estrategia ofensiva:', content1)")(data-aos="fade-right" data-aos-duration="900" data-aos-delay="700")
             figure.mb-2.px-3.py-4
               img(src="@/assets/curso/tema2-img5.svg")
             p.mb-5.text-center
               strong Estrategia <br>ofensiva
-          .col.briefcase.box-2.clicker(@click="updateModal(require('@/assets/curso/tema2-img10.svg'), 'Estrategia defensiva:', content2)")
+          .col.briefcase.box-2.clicker(@click="updateModal(require('@/assets/curso/tema2-img10.svg'), 'Estrategia defensiva:', content2)")(data-aos="fade-down" data-aos-duration="900" data-aos-delay="700")
             figure.mb-2.px-3.py-4
               img(src="@/assets/curso/tema2-img6.svg")
             p.mb-5.text-center
               strong Estrategia <br>defensiva
-          .col.briefcase.box-3.clicker(@click="updateModal(require('@/assets/curso/tema2-img11.svg'), 'Estrategia de reorientación:', content3)")
+          .col.briefcase.box-3.clicker(@click="updateModal(require('@/assets/curso/tema2-img11.svg'), 'Estrategia de reorientación:', content3)")(data-aos="fade-left" data-aos-duration="900" data-aos-delay="700")
             figure.mb-2.px-3.py-4
               img(src="@/assets/curso/tema2-img7.svg")
             p.mb-5.text-center
               strong Estrategia <br>de reordenación
         .row
-          .col.briefcase.box-4
-          .col.briefcase.box-5.clicker(@click="updateModal(require('@/assets/curso/tema2-img12.svg'), 'Estrategia de supervivencia:', content4)")
+          .col.briefcase.box-4(data-aos="fade-right" data-aos-duration="900" data-aos-delay="700")
+          .col.briefcase.box-5.clicker(@click="updateModal(require('@/assets/curso/tema2-img12.svg'), 'Estrategia de supervivencia:', content4)")(data-aos="fade-up" data-aos-duration="900" data-aos-delay="700")
             figure.mb-2.px-3.py-4.mt-5
               img(src="@/assets/curso/tema2-img8.svg")
             p.mb-5.text-center
               strong Estrategia <br>de supervivencia
-          .col.briefcase.box-6
+          .col.briefcase.box-6(data-aos="fade-left" data-aos-duration="900" data-aos-delay="700")
 
     ModalA.briefcase-modal(:abrir-modal.sync="modal1")
       .row.align-items-center
@@ -80,14 +80,14 @@
             br
             | {{ modal.text }}
 
-    p.mb-5
+    p.mb-5(data-aos="fade-down" data-aos-duration="600")
       strong A continuación, se presenta una tabla con un ejemplo de la matriz DOFA cruzada.
 
-    .titulo-sexto.color-acento-botones.mb-4
+    .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-down" data-aos-duration="600")
       h5 Tabla 2
       span Ejemplo matriz DOFA cruzada
 
-    .tabla-b.color-acento-contenido.mb-5
+    .tabla-b.color-acento-contenido.mb-5(data-aos="fade-down" data-aos-duration="600")
       .tabla-b__header
         h5.mb-0 Matriz de análisis DOFA Cruzada
       table
@@ -152,19 +152,19 @@
             p.mb-3.text-center.fw-bolder ESTRATEGIA DE SUPERVIVENCIA (DA)
             p.mb-0 Diseñar un programa de beneficios y recompensas para mejorar la calidad de vida de los trabajadores.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left" data-aos-duration="600")
       .col-md-8
         Card(
           title="Matriz PEYEA"
           :img="require('@/assets/curso/tema2-img14.svg')"
           description="Según Orozco (2011), la matriz de la posición estratégica y la evaluación de la acción (PEYEA), es una herramienta muy importante que permite identificar si una estrategia es agresiva, conservadora, defensiva o competitiva es la óptima para aplicar una empresa dada. ")
 
-    p.mb-4 Dependiendo del tipo de organización, numerosas variables podrían constituir cada una de las dimensiones representadas en los ejes de la matriz PEYEA, esta se debe preparar para la organización particular que se esté considerando y se debe basar, en la medida de lo posible, en información a base de datos.
+    p.mb-4(data-aos="fade-down" data-aos-duration="600") Dependiendo del tipo de organización, numerosas variables podrían constituir cada una de las dimensiones representadas en los ejes de la matriz PEYEA, esta se debe preparar para la organización particular que se esté considerando y se debe basar, en la medida de lo posible, en información a base de datos.
 
-    p.mb-5
+    p.mb-5(data-aos="fade-down" data-aos-duration="600")
       strong Los pasos para realizar una matriz PEYEA son los siguientes:
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down" data-aos-duration="600")
       .col-lg-10
         PasosA.color-primario.mb-5(tipo="n")
           .row.align-items-center
@@ -204,11 +204,11 @@
             .col-md-8
               p Trazar un vector direccional del origen de la matriz PEYEA por el nuevo punto de la intersección. Este vector revelará el tipo de la estrategia recomendable para la organización agresiva, competitiva, defensiva o conservadora (Orozco, 2011).
 
-    .titulo-sexto.color-acento-botones.mb-4
+    .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-down" data-aos-duration="600")
       h5 Figura 4
       span Estructura de la matriz PEYEA
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down" data-aos-duration="600")
       .col-lg-11
         figure.mb-5
           img(src="@/assets/curso/tema2-img21.svg")
@@ -225,23 +225,22 @@
             figure.p-5
               img(src="@/assets/curso/tema1-img20.svg")
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left" data-aos-duration="600")
       .col-md-8
         Card(
           title="Matriz BCG"
           :img="require('@/assets/curso/tema2-img22.svg')"
           description="La matriz BCG es clave para la toma de decisiones, pues ayuda a las empresas a identificar en qué productos deben seguir invirtiendo recursos y en cuáles no hacerlo (ESAN, 2020, 2020)")
 
-    p.mb-5 Esta matriz, también conocida como matriz de crecimiento-participación, permite analizar las carteras de productos y proponer estrategias de mejora continua. Esta herramienta de marketing, creada por la consultora Boston Consulting Group (BCG), es clave para la toma de decisiones, facilitando la identificación de los productos más rentables de la organización y cuáles deberían ser retirados del mercado.
+    p.mb-5(data-aos="fade-down" data-aos-duration="600") Esta matriz, también conocida como matriz de crecimiento-participación, permite analizar las carteras de productos y proponer estrategias de mejora continua. Esta herramienta de marketing, creada por la consultora Boston Consulting Group (BCG), es clave para la toma de decisiones, facilitando la identificación de los productos más rentables de la organización y cuáles deberían ser retirados del mercado.
       br
       br
       | Este modelo gráfico de análisis relaciona las ventas con la rentabilidad y el flujo de caja de cada producto de la empresa. El eje vertical de la matriz representa la tasa de crecimiento, mientras que el horizontal la participación o cuota de mercado. Del mismo modo, cada cuadrante maneja su propia definición y representación gráfica:
 
-    p.mb-5.text-center
+    p.mb-5.text-center(data-aos="fade-down" data-aos-duration="600")
       strong Modelo gráfico de matriz BCG
 
-
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down" data-aos-duration="600")
       .col-lg-10
         .px-4.mb-5
           SlyderA.tarjeta.tarjeta--azul.p-5
@@ -284,26 +283,26 @@
       figure
         img(src="@/assets/curso/tema2-img29.svg")
 
-    p.mb-5
+    p.mb-5(data-aos="fade-down" data-aos-duration="600")
       strong A continuación, se presenta una figura con un ejemplo de la matriz BCG.
 
-    .titulo-sexto.color-acento-botones.mb-4
+    .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-down" data-aos-duration="600")
       h5 Figura 5
       span Estructura de la matriz
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down" data-aos-duration="600")
       .col-lg-10
         figure
           img(src="@/assets/curso/tema2-img23.svg")
 
     Separador
 
-    #t_2_2.titulo-segundo.color-primario
+    #t_2_2.titulo-segundo.color-primario(data-aos="fade-down" data-aos-duration="600")
       h2 2.2  Definición de estrategias
 
-    p.mb-5 La estrategia es un procedimiento que facilita la toma de decisiones y/o permite accionar frente a un determinado panorama. Esto, con la intención de alcanzar uno o varios objetivos previamente definidos (Westreicher, 2020).
+    p.mb-5(data-aos="fade-down" data-aos-duration="600") La estrategia es un procedimiento que facilita la toma de decisiones y/o permite accionar frente a un determinado panorama. Esto, con la intención de alcanzar uno o varios objetivos previamente definidos (Westreicher, 2020).
 
-    .cajon.color-primario.mb-4
+    .cajon.color-primario.mb-4(data-aos="fade-down" data-aos-duration="600")
       p.px-5.pt-5 Existen diferentes tipos de estrategias, a continuación, se presentan una variedad agrupada de la siguiente manera:
       ul.lista-ul--color.px-5.mb-3
         li
