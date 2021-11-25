@@ -215,6 +215,8 @@
       .col-lg-8
         .row.multicolor.align-items-center.mb-5.clicker(@click="openNewTab(obtenerLink('/downloads/Anexo_6_plantilla_matriz_PEYEA.xlsx'))")
           .col-lg-8
+            .indicador__container
+              .indicador--click
             p.mb-0.px-4.text-white A continuación dar click para descargar el archivo Anexo_6_Plantilla_matriz_PEYEA.xls
               br
               br
@@ -238,6 +240,49 @@
     p.mb-5.text-center
       strong Modelo gráfico de matriz BCG
 
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .px-4.mb-5
+          SlyderA.tarjeta.tarjeta--azul.p-5
+            .row
+              .col-md-8.mb-4.mb-md-0
+                p.mb-0
+                  strong Las estrellas.
+                  |    Son productos que tienen una alta cuota de mercado y generan grandes ingresos económicos para la organización. Por lo general, en este cuadrante se ubican aquellos artículos lanzados al mercado por primera vez o que forman parte de un monopolio
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema2-img25.svg')
+            .row
+              .col-md-8.mb-4.mb-md-0
+                p.mb-0
+                  strong Los signos de interrogación.
+                  |    Son productos que tienen un crecimiento prometedor, pero una participación débil en el mercado. Requieren de grandes sumas de dinero para seguir desarrollándose, a pesar de que generan ingresos bajos.
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema2-img26.svg')
+            .row
+              .col-md-8.mb-4.mb-md-0
+                p.mb-0
+                  strong Vacas lecheras.
+                  |    Son el sueño de todo emprendedor. Son productos que generan mayor rentabilidad en una organización. Están consolidados en el mercado y son consumidos por el público de manera habitual (ESAN, 2020).
+              .col-md-4
+                figure.button-temp(@click="modal2 = true")
+                  .indicador__container
+                    .indicador--click
+                  img(src='@/assets/curso/tema2-img27.svg')
+            .row
+              .col-md-8.mb-4.mb-md-0
+                p.mb-0
+                  strong Desastre.
+                  |    Conocidos también como productos perros, son aquellos que tienen una baja tasa de crecimiento y poca participación en el mercado. Por lo general, luego de identificarlos se aconseja retirarlos del portafolio de productos. Ello debido a que no generan ingresos y, por el contrario, consumen recursos innecesarios (ESAN, 2020).
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/tema2-img28.svg')
+
+    ModalA(:abrir-modal.sync="modal2")
+      figure
+        img(src="@/assets/curso/tema2-img29.svg")
 
     p.mb-5
       strong A continuación, se presenta una figura con un ejemplo de la matriz BCG.
@@ -325,6 +370,7 @@ export default {
   data: () => ({
     // variables de vue
     modal1: false,
+    modal2: false,
     modal: {
       img: null,
       title: '',
