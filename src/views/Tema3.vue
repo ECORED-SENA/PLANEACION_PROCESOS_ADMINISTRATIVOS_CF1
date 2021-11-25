@@ -250,6 +250,15 @@
                 strong Progreso Evolución
                 br
                 | El gráfico mostrará cómo se está desarrollando el proyecto. Podremos visualizar las tareas finalizadas, las pendientes y las que están en proceso. Así verá a tiempo real si el proyecto está funcionando según lo previsto.
+          .row.tarjeta.color-acento-botones.p-3(x="71.1%" y="65.6%")
+            .col-lg-2
+              figure
+                img(src="@/assets/curso/tema3-img12.svg")
+            .col-lg-9
+              p.mb-0
+                strong Plazos Preventivos
+                br
+                | Una vez marcado el comienzo y el final, es importante planificar los tiempos para cada tarea. De este modo, podremos garantizar que cada acción se desarrolla en su momento y no perjudica al resto.
 
     h3.titulo-tercero Síntesis
 
