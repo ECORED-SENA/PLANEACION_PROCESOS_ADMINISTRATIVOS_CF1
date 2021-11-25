@@ -8,6 +8,10 @@
         span 1
       h1 Diagnóstico empresarial
 
+    Card2(
+      :img="require('@/assets/curso/tema1-img1.svg')"
+      text="También llamado diagnóstico organizacional es un estudio que permite evaluar la situación de una empresa en un momento dado, partiendo de factores del microentorno y macroentorno que pueden impactar positiva o negativamente en su proceso productivo, siempre es fundamental conocer el contexto organizacional de cualquier empresa a nivel interno y externo, entendiendo estos como las herramientas para conocer su estructura si se desea hacer cambios a cualquier nivel: comercial, corporativo, económicos y tecnológicos que permitan conocer la realidad de la empresa."
+    )
 
     p.mb-5
       strong Según lo expuesto, se puede observar en el siguiente video cómo realizar un diagnóstico organizacional en la empresa.
@@ -28,8 +32,6 @@
             i.fas.fa-quote-left
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto El microentorno está compuesto por factores que interactúan e influyen en la dinámica de una empresa. Entre ellos podemos encontrar a los clientes, los proveedores, las entidades financieras, la competencia, socios, intermediarios y la empresa como tal. Así mismo, en un ámbito general se estudian los factores del macroentorno compuesto por fuerzas difíciles de controlar para la organización y que pueden convertirse en amenazas u oportunidades en un momento dado, dependiendo del radar que posea la empresa para aprovechar o mitigar su impacto. Entre ellos podemos encontrar factores económicos, políticos, legales, tecnológicos, sociales y ambientales”.
-          //- .bloque-texto-f__autor.mb-3
-          //-   h3.mb-0 The graphic designer
           .bloque-texto-f__avatar
             .bloque-texto-f__avatar__img
               img(src='@/assets/curso/tema1-img2.svg', alt='Texto que describa la imagen')
@@ -41,9 +43,6 @@
         | de una organización son los siguientes:
 
     TabsA.color-acento-botones.mb-5
-      //- .tarjeta debe ir acompañado de una de una de estas clases =>
-      //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-      //- estas clases tambien tienen un modificador --borde
       .tarjeta.color-acento-botones.py-4.px-5(titulo="Clientes")
         .row.align-items-center
           .col-lg-8.mb-5.mb-lg-0
@@ -106,7 +105,31 @@
         span.resaltar microentorno
         | está compuesto por fuerzas que no se pueden controlar y pueden impactar en el proceso productivo de una organización.
 
-    .titulo-segundo.color-primario
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .row
+          .col
+            .indicador__container
+              .indicador--click
+            figure.button-temp(@click="updateModal('Factores Económicos', content1)")
+              img(src="@/assets/curso/tema1-img21.svg")
+          .col
+            figure.button-temp(@click="updateModal('Factores Político - Legales', content2)")
+              img(src="@/assets/curso/tema1-img22.svg")
+          .col
+            figure.button-temp(@click="updateModal('Factores Tecnológicos', content3)")
+              img(src="@/assets/curso/tema1-img23.svg")
+          .col
+            figure.button-temp(@click="updateModal('Factores Sociales', content4)")
+              img(src="@/assets/curso/tema1-img24.svg")
+          .col
+            figure.button-temp(@click="updateModal('Factores Ambientales', content5)")
+              img(src="@/assets/curso/tema1-img25.svg")
+
+    Separador
+
+    #t_1_1.titulo-segundo.color-primario
       h2 1.1  Técnicas de recolección de información
 
     p.mb-5 Una vez recolectada la información se requiere de herramientas de diagnóstico que permitan organizar e interpretar los datos recolectados para su respectivo análisis. Por lo anterior, estas herramientas pueden ser aplicables a los procesos que desarrollan las organizaciones, independiente si son de servicios, manufactura, o administrativas. Lo más recomendable es adaptar las técnicas a las necesidades particulares de cada organización.
@@ -222,26 +245,85 @@
           .col-lg-3.offset-lg-1
             figure.p-5
               img(src="@/assets/curso/tema1-img20.svg")
-    //- //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- //- se encuentra en src/components/Muestras.vue
-    //- //- Una vez el componente "Muestras" no se necesite
-    //- //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- //- esto evitará que se compile en la carpeta final de distribución
-    //- Muestras
+
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .col-12.mb-4.mb-md-0
+          h4.mb-5 {{ title }}
+          div(v-html="content")
 
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 import Card from '../components/Card.vue'
+import Card2 from '../components/Card2.vue'
 export default {
   name: 'Tema1',
   components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
     Card,
+    Card2,
   },
   data: () => ({
     // variables de vue
+    modal1: false,
+    title: '',
+    content: '',
+    content1: `
+            <strong>Nivel de inflación</strong>. Ocurre cuando el Gobierno sube el nivel de inflación, como consecuencia se genera aumento de los diferentes costos para las empresas y esto conlleva a que esta deba vender a precios más altos, impactando negativamente el aumento de las ventas.
+            <br>
+            <br>
+            <strong>Política Fiscal</strong>.  El Gobierno nacional decide subir los impuestos afectado a una organización de forma negativa, por ello la obliga a pagar más gravámenes y disminuyendo la circulación de dinero, es decir, las ventas.
+            <br>
+            <br>
+            <strong>Política monetaria</strong>. Se presenta cuando se disminuyen las tasas de interés, por ello una organización podrá conseguir préstamos más baratos y las personas se motivan a comprar más.`,
+    content2: `Estos factores hacen referencia al análisis de leyes, códigos, instituciones públicas y privadas y corrientes ideológicas. La influencia que ejerce el proceso político-legal de las sociedades en el comportamiento de las organizaciones es cada vez mayor.
+            <br>
+            <br>
+            <strong></strong>Los indicadores que más las afectan son:</strong>
+            <br>
+            <br>
+            <ul class="lista-ul--color">
+              <li>
+                <i class="fas fa-check"></i>
+                Legislación tributaria, comercial, laboral y penal.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Legislación sobre protección ambiental.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Legislación estatal y municipal.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Política de relaciones internacionales.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Políticas de regulación, desregularización y privatización.
+              </li>
+            </ul>
+`,
+    content3: `<strong>Telecomunicaciones</strong>.  Los sistemas móviles se convirtieron en el medio ideal de las empresas para persuadir y llegar a sus consumidores finales. La posibilidad de impactar directamente a su público objetivo donde se encuentre es una oportunidad de llevar en tiempo real su mensaje a su segmento objetivo.
+            <br>
+            <br>
+            <strong>Software libre</strong>.  El aumento del software libre vs. el licenciado y la necesidad del desarrollo de software para industrias con sistemas de operación muy específicos que requieren soluciones, que no sean genéricas, se ha convertido en una tendencia global, impactando positivamente en el contexto operativo de las unidades productivas.
+            <br>
+            <br>
+            <strong>Desarrollo tecnológico para optimizar el proceso productivo</strong>. Surgen también nuevas tecnologías basadas en el desarrollo de microprocesadores para mejorar procesos de producción.
+`,
+    content4: `Son múltiples las variables que se toman en cuenta en este aspecto. A veces incluyen el número de nacimientos, la tasa de esperanza de vida, matrimonios, divorcios, defunciones, las tasas de emigración e inmigración, la ubicación de las empresas y los sitios de residencia de una ciudad, el sistema de seguridad social y los programas para lograrlo, el nivel y cobertura de servicios públicos, entre otros.
+            <br>
+            <br>
+            También se estiman aspectos que involucran la moda y sus diferentes expresiones, así como la influencia y valoración del arte y la cultura. El cuidado y uso de lo público, la participación ciudadana y la preservación de los sitios de interés son otras variables de importancia.`,
+    content5: `<strong>Consideraciones medioambientales</strong>.  Todas las empresas, sin importar su industria y tamaño, generan algún impacto en el medio ambiente.
+            <br>
+            <br>
+            <strong>Responsabilidad ambiental</strong>.  Todas las empresas son propensas a generar contaminación y se hace hincapié, específicamente, en los cambios desfavorables que afectan las características biológicas, físicas o químicas del agua, del aire o de la tierra.
+            <br>
+            <br>
+            <strong>Sostenibilidad</strong>. Se refiere a satisfacer las necesidades de la actual generación, sin afectar el entorno, las diferentes especies y ecosistemas con la intención de dar cumplimiento a los objetivos individuales de un sector industrial específico o del ser humano. `,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -250,6 +332,13 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    updateModal(title, content) {
+      this.modal1 = true
+      this.title = title
+      this.content = content
+    },
   },
 }
 </script>
