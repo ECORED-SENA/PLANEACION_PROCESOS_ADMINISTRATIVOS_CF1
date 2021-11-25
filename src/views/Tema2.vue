@@ -87,8 +87,70 @@
       h5 Tabla 2
       span Ejemplo matriz DOFA cruzada
 
-    figure.mb-5
-      img(src="@/assets/curso/tema2-img13.svg")
+    .tabla-b.color-acento-contenido.mb-5
+      .tabla-b__header
+        h5.mb-0 Matriz de análisis DOFA Cruzada
+      table
+        tr
+          td(colspan="3").text-center Es una herramienta  para el análisis de una situación, mediante el cruce de variables, para la formulación de la estrategia.
+        tr
+          td(style="width: 30%").fw-bolder.text-center.left FACTORES INTERNOS<br><br><br><br><br><br><br><br>FACTORES EXTERNOS
+          td(style="width: 35%")
+            p.mb-3.text-center.fw-bolder FORTALEZAS (F)
+            p.mb-0 Existe buena comunicación en la empresa.
+              br
+              | La empresa tiene 30 años de experiencia en el mercado.
+              br
+              | El servicio de calidad en las asesorías.
+              br
+              | Se mantiene buen trabajo en equipo.
+          td(style="width: 35%").right
+            p.mb-3.text-center.fw-bolder DEBILIDADES (D)
+            p.mb-0 Mal clima laboral por chismes en la oficina.
+            br
+            | Sueldo de los trabajadores deficiente.
+            br
+            | Carece de programas de capacitación.
+            br
+            | Los trabajadores sienten que no son tomados en cuenta para la toma de decisiones.
+        tr
+          td(style="width: 30%").left
+            p.mb-3.text-center.fw-bolder OPORTUNIDADE (O)
+            p.mb-0 Se abrirá una sucursal en la capital.
+              br
+              | El SENA ofrece un programa de capacitación.
+              br
+              | Colombia firma convenio de libre comercio con otro país.
+              br
+              | Aumento de pedidos hacia otras ciudades.
+          td(style="width: 35%")
+            p.mb-3.text-center.fw-bolder ESTRATEGIA OFENSIVA (FO)
+            p.mb-0 Construcción de nuevas sedes en otras ciudades.
+              br
+              | Solicitar programa de capacitación al SENA.
+              br
+              | Estudiar nuevos mercados
+          td(style="width: 35%").right
+            p.mb-3.text-center.fw-bolder ESTRATEGIA DE REORIENTACIÓN (DO)
+            p.mb-0 Solicitar al SENA talleres para el manejo de emociones y habilidades blandas.
+              br
+              | Rediseñar el sistema de escalas salariales.
+              br
+              | Realizar reuniones periódicamente para escuchar propuestas de mejora de los empleados.
+        tr
+          td(style="width: 30%").left
+            p.mb-3.text-center.fw-bolder AMENAZAS (A)
+            p.mb-0 Aumento de la inflación.
+              br
+              | Alta tasa de desempleo.
+              br
+              | Reforma tributaria.
+          td(style="width: 30%")
+            p.mb-3.text-center.fw-bolder ESTRATEGIA DEFENSIVA (FA)
+            p.mb-0 Lanzar nueva línea de productos.
+          td(style="width: 30%").right
+            p.mb-3.text-center.fw-bolder ESTRATEGIA DE SUPERVIVENCIA (DA)
+            p.mb-0 Diseñar un programa de beneficios y recompensas para mejorar la calidad de vida de los trabajadores.
 
     .row.mb-5
       .col-md-8

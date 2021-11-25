@@ -113,9 +113,86 @@
       h5 Tabla 3
       span Diferencias entre meta y objetivo
 
-    figure.mb-5
-      img(src="@/assets/curso/tema3-img5.svg")
-      figcaption Nota. Tomada de Lugo (2020)
+    .tabla-b.color-acento-contenido.mb-5
+      table
+        tr
+          td(style="width: 25%").left.table-header-especial.text-white.fw-bolder
+          td(style="width: 35%").table-header-especial.text-white.fw-bolder Meta
+          td(style="width: 40%").right.table-header-especial.text-white.fw-bolder Objetivo
+        tr
+          td(style="width: 25%").left.fw-bolder Definición
+          td(style="width: 35%") Aspiración o deseos que se quieren cumplir en el futuro.
+          td(style="width: 40%").right Propósito concreto que se quiere realizar para alcanzar una meta.
+        tr
+          td(style="width: 25%").left.fw-bolder Características
+          td(style="width: 35%")
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Emotiva.
+              li
+                i.fas.fa-angle-right
+                | Ambiciosa.
+              li
+                i.fas.fa-angle-right
+                | Abstracta.
+              li
+                i.fas.fa-angle-right
+                | No establece un tiempo específico para alcanzarla.
+              li
+                i.fas.fa-angle-right
+                | Según el tiempo, puede ser a corto, a mediano o a largo plazo.
+              li
+                i.fas.fa-angle-right
+                | Según su intención, puede ser de dominio, de desempeño o de evitación.
+          td(style="width: 40%").right
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Serio y sin emotividad.
+              li
+                i.fas.fa-angle-right
+                | Realista.
+              li
+                i.fas.fa-angle-right
+                | Medible.
+              li
+                i.fas.fa-angle-right
+                | Establece un tiempo determinado para su cumplimiento..
+              li
+                i.fas.fa-angle-right
+                | Generales.
+              li
+                i.fas.fa-angle-right
+                | Específicos.
+        tr
+          td(style="width: 25%").left.fw-bolder Ejemplos
+          td(style="width: 35%")
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Bajar de peso.
+              li
+                i.fas.fa-angle-right
+                | Conseguir trabajo.
+              li
+                i.fas.fa-angle-right
+                | Ahorrar dinero.
+              li
+                i.fas.fa-angle-right
+                | Ser mejor estudiante.
+          td(style="width: 40%").right
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Inscribirse en un gimnasio.
+              li
+                i.fas.fa-angle-right
+                | Comprar un carro dentro de un año.
+              li
+                i.fas.fa-angle-right
+                | Sacar notas las más altas en la clase.
+
 
     Separador
 
