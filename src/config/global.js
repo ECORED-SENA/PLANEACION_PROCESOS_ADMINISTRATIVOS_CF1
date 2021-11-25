@@ -120,139 +120,140 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Bautista, V., y Robayo, E. (2019). <i>Resumen analítico en educación.</i>',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://repository.ucatolica.edu.co/bitstream/10983/23371/2/resumen-analitico-en-educacion.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Entrepreneur. (2021). <i>Plan de acción: 6 pasos efectivos para hacerlo sin equivocarte.</i> https://www.entrepreneur.com.',
+      link: 'https://www.entrepreneur.com/article/263648',
+    },
+    {
+      referencia:
+        'Interactuar.org.co. (2020). <i>Direccionamiento estratégico: claves para entenderlo. Interactuar.org.co.</i>',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://interactuar.org.co/direccionamiento-estrategico-claves-para-entenderlo/',
+    },
+    {
+      referencia: 'Lugo, Z. (2020). <i>Meta y objetivo.</i>',
+      link: 'https://www.diferenciador.com/meta-y-objetivo/',
+    },
+    {
+      referencia: 'Orozco, Y. (2011). <i>Matriz PEYEA.</i>',
+      link: 'https://yomaira-orozcocorrea.webnode.es/news/matriz-peyea/',
+    },
+    {
+      referencia: 'Pérez, M. (2021). <i>Tipos de estrategias.</i>',
+      link: 'https://www.zonaeconomica.com/tipos-estrategias',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Programa de transformación productiva. (2015). <i>Guía de metodología para el diseño e implementación de estrategias de mercadeo innovadoras.</i>',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.colombiaproductiva.com/CMSPages/GetFile.aspx?guid=b12c50cd-d23e-471c-94b5-2ccb64896313',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'SENA. (2014). <i>Especialización tecnológica diagnóstico y análisis organizacional para unidades productivas. SENA.</i>',
+      link: '',
     },
     {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      referencia: 'Universidad ESAN. (2020). <i>Matriz BCG: qué es.</i>',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.esan.edu.pe/apuntes-empresariales/2020/10/matriz-bcg-que-es-y-como-aplicarla-en-las-empresas/',
     },
     {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      referencia: 'Westreicher, G. (2020). <i>Estrategia.</i>',
+      link: 'https://economipedia.com/definiciones/estrategia.html',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Productividad',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'relación entre la cantidad de productos obtenida por un sistema productivo y los recursos utilizados para obtener dicha producción.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Competitividad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'capacidad de generar la mayor satisfacción de los consumidores fijando un precio o la capacidad de poder ofrecer un menor precio fijando la calidad.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Organizaciones',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'estructuras y sistemas administrativos creadas para lograr metas u objetivos con el apoyo de las propias personas, o con apoyo del talento humano, los recursos disponibles, entre otras.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Procesos administrativos',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'en una empresa es el modo en que se afronta la gestión de la actividad de esta, a través de sus cuatro fases: planeamiento, organización, dirección y control.',
     },
     {
-      termino: 'Moda',
+      termino: 'Entono',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'conjunto de circunstancias o factores sociales, culturales, morales, económicos, profesionales, etc., que rodean una cosa o a una persona, colectividad o época e influyen en su estado o desarrollo.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Recurso',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'fuente o suministro del cual se produce un beneficio. Recurso se refiere a cuando alguien tiene algo. Normalmente, los recursos son materiales u otros activos que son transformados para producir un beneficio y en el proceso pueden ser consumidos o no estar más disponibles.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Servicio Nacional de Aprendizaje – SENA. (2014). Microentorno empresarial, Especialización en diagnóstico y análisis organizacional para unidades productivas. SENA.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo_4_Micro_Entorno_Empresarial.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Servicio Nacional de Aprendizaje – SENA. (2014). Macroentorno empresarial, Especialización en diagnóstico y análisis organizacional para unidades productivas. SENA.',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo_5_Macro_Entorno_Empresarial.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Ingenio empresa. (2016), Diagrama de Pareto: Qué es y cómo se hace. Ejemplo práctico paso a paso. [Video]. YouTube. ',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://www.youtube.com/watch?v=vd7QVKpW27Q&t=138s',
+    },
+    {
+      texto:
+        'Enplanta Medellín. (2015). Diagrama de causa y efecto en 120 segundos. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=HO-hgBMR9ts',
+    },
+    {
+      texto:
+        'Ecosistema de recursos educativos digitales SENA. (2021). Matriz DOFA. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=84fuGpQeYg0',
+    },
+    {
+      texto:
+        'Administración y contabilidad. (2021). Matriz DOFA Cruzada. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=g1Vpdv_1WMs',
+    },
+    {
+      texto:
+        'Investiguemos. (2018). Elaboración de matriz PEYEA. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=yXewH37egdw',
+    },
+    {
+      texto:
+        'Ideas entre amigos. (2021). Qué es la matriz BCG - Cómo hacer la Matriz BCG de Samsung. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=I5bPUXSe3h8',
+    },
+    {
+      texto:
+        'Despegue media. (2021). El poder de la estrategia en los negocios y marketing. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=jwiV9gbjEi8',
     },
   ],
   creditos: {
