@@ -213,9 +213,9 @@
         figure.mb-5
           img(src="@/assets/curso/tema2-img21.svg")
       .col-lg-8
-        .row.multicolor.align-items-center.mb-5
+        .row.multicolor.align-items-center.mb-5.clicker(@click="openNewTab(obtenerLink('/downloads/Anexo_6_plantilla_matriz_PEYEA.xlsx'))")
           .col-lg-8
-            p.mb-0.px-4.text-white Dirigirse a la carpeta Anexos y descargar el archivo denominado: Anexo_6_Plantilla matriz PEYEA.xls
+            p.mb-0.px-4.text-white A continuación dar click para descargar el archivo Anexo_6_Plantilla_matriz_PEYEA.xls
               br
               br
               | Diligencie la matriz teniendo en cuenta las indicaciones de su instructor.
@@ -355,6 +355,9 @@ export default {
         title: title,
         text: text,
       }
+    },
+    openNewTab(url) {
+      window.open(url, '_blank')
     },
   },
 }
