@@ -42,7 +42,7 @@
         span.resaltar microentorno
         | de una organización son los siguientes:
 
-    TabsA.color-acento-botones.mb-5(data-aos="fade-left")
+    TabsA.color-primario.mb-5(data-aos="fade-left")
       .tarjeta.color-acento-botones.py-4.px-5(titulo="Clientes")
         .row.align-items-center
           .col-lg-8.mb-5.mb-lg-0
@@ -102,7 +102,7 @@
     p.mb-5(data-aos="fade-down" data-aos-duration="600")
       strong
         | El
-        span.resaltar microentorno
+        span.resaltar macroentorno
         | está compuesto por fuerzas que no se pueden controlar y pueden impactar en el proceso productivo de una organización.
 
 
@@ -132,6 +132,15 @@
     #t_1_1.titulo-segundo.color-primario(data-aos="fade-down" data-aos-duration="600")
       h2 1.1  Técnicas de recolección de información
 
+    p.mb-5(data-aos="fade-down" data-aos-duration="600") Todo proceso investigativo requiere recolectar información para conocer el objeto de estudio. Dicha información es recopilada por medio de técnicas cuantitativas y cualitativas de recolección de información. Lo mismo sucede al realizar un diagnóstico empresarial, se requieren ciertas técnicas para recopilar la información de la situación real de una empresa; a continuación, se relacionan las más comunes para realizar un diagnóstico:
+
+    h2 Pendiente DI
+
+    Separador
+
+    #t_1_2.titulo-segundo.color-primario(data-aos="fade-down" data-aos-duration="600")
+      h2 1.2  Herramientas de diagnóstico empresarial
+
     p.mb-5(data-aos="fade-down" data-aos-duration="600") Una vez recolectada la información se requiere de herramientas de diagnóstico que permitan organizar e interpretar los datos recolectados para su respectivo análisis. Por lo anterior, estas herramientas pueden ser aplicables a los procesos que desarrollan las organizaciones, independiente si son de servicios, manufactura, o administrativas. Lo más recomendable es adaptar las técnicas a las necesidades particulares de cada organización.
 
     .row.mb-5(data-aos="fade-left" data-aos-duration="600")
@@ -157,7 +166,7 @@
         Card(
           title="Diagrama de causa y efecto"
           :img="require('@/assets/curso/tema1-img10.svg')"
-          description="Esta clase de diagrama también es llamado diagrama de espina de pescado. Se emplea como herramienta de control de tipo gráfico que se aplica con el fin de determinar por medio de un análisis sistémico profundo, coherente y conciso, la conexión entre las variables del proceso y el atributo estudiado. En la figura 2 se ilustra la forma en la cual estos factores están vinculados a un efecto potencial o problema.")
+          description="Esta clase de diagrama también es llamado diagrama de espina de pescado. Se emplea como herramienta de control de tipo gráfico que se aplica con el fin de determinar por medio de un análisis sistémico profundo, coherente y conciso, la conexión entre las variables del proceso y el atributo estudiado. En la figura 2 se ilustra la forma en la cual estos factores están vinculados a un efecto potencial o problema. <br><br> Se realiza análisis del diagrama, se determina a través del análisis cuáles en causas potenciales se requiere intervenir y se establecen los planes de acción al respecto.")
 
     .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-down" data-aos-duration="600")
       h5 Figura 2
@@ -226,12 +235,29 @@
 
     .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-down" data-aos-duration="600")
       h5 Tabla 1
+      br
       span Ejemplo matriz DOFA
 
     .row.mb-5.justify-content-center(data-aos="fade-down" data-aos-duration="600")
       .col-md-8
-        figure.mb-5
-          img(src="@/assets/curso/tema1-img19.svg")
+        .row.justify-content-center
+          .col-12
+            figure.mb-5
+              img(src="@/assets/curso/tema1-img19_1.svg")
+          .col-lg-6
+            figure.mb-5
+              img(src="@/assets/curso/tema1-img19_2.svg")
+          .col-lg-6
+            figure.mb-5
+              img(src="@/assets/curso/tema1-img19_3.svg")
+          .col-lg-6
+            figure.mb-5
+              img(src="@/assets/curso/tema1-img19_4.svg")
+          .col-lg-6
+            figure.mb-5
+              img(src="@/assets/curso/tema1-img19_5.svg")
+
+
         figure.mb-5
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/84fuGpQeYg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -310,7 +336,7 @@ export default {
     content3: `<strong>Telecomunicaciones</strong>.  Los sistemas móviles se convirtieron en el medio ideal de las empresas para persuadir y llegar a sus consumidores finales. La posibilidad de impactar directamente a su público objetivo donde se encuentre es una oportunidad de llevar en tiempo real su mensaje a su segmento objetivo.
             <br>
             <br>
-            <strong>Software libre</strong>.  El aumento del software libre vs. el licenciado y la necesidad del desarrollo de software para industrias con sistemas de operación muy específicos que requieren soluciones, que no sean genéricas, se ha convertido en una tendencia global, impactando positivamente en el contexto operativo de las unidades productivas.
+            <strong><i>Software</i> libre</strong>.  El aumento del <i>software</i> libre vs. el licenciado y la necesidad del desarrollo de <i>software</i> para industrias con sistemas de operación muy específicos que requieren soluciones, que no sean genéricas, se ha convertido en una tendencia global, impactando positivamente en el contexto operativo de las unidades productivas.
             <br>
             <br>
             <strong>Desarrollo tecnológico para optimizar el proceso productivo</strong>. Surgen también nuevas tecnologías basadas en el desarrollo de microprocesadores para mejorar procesos de producción.

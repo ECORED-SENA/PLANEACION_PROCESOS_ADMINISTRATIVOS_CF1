@@ -232,7 +232,7 @@
           :img="require('@/assets/curso/tema2-img22.svg')"
           description="La matriz BCG es clave para la toma de decisiones, pues ayuda a las empresas a identificar en qué productos deben seguir invirtiendo recursos y en cuáles no hacerlo (ESAN, 2020, 2020)")
 
-    p.mb-5(data-aos="fade-down" data-aos-duration="600") Esta matriz, también conocida como matriz de crecimiento-participación, permite analizar las carteras de productos y proponer estrategias de mejora continua. Esta herramienta de marketing, creada por la consultora Boston Consulting Group (BCG), es clave para la toma de decisiones, facilitando la identificación de los productos más rentables de la organización y cuáles deberían ser retirados del mercado.
+    p.mb-5(data-aos="fade-down" data-aos-duration="600") Esta matriz, también conocida como matriz de crecimiento-participación, permite analizar las carteras de productos y proponer estrategias de mejora continua. Esta herramienta de <i>marketing</i>, creada por la consultora <i>Boston Consulting Group (BCG)</i>, es clave para la toma de decisiones, facilitando la identificación de los productos más rentables de la organización y cuáles deberían ser retirados del mercado.
       br
       br
       | Este modelo gráfico de análisis relaciona las ventas con la rentabilidad y el flujo de caja de cada producto de la empresa. El eje vertical de la matriz representa la tasa de crecimiento, mientras que el horizontal la participación o cuota de mercado. Del mismo modo, cada cuadrante maneja su propia definición y representación gráfica:
@@ -291,7 +291,7 @@
       span Estructura de la matriz
 
     .row.justify-content-center(data-aos="fade-down" data-aos-duration="600")
-      .col-lg-10
+      .col-lg-11
         figure
           img(src="@/assets/curso/tema2-img23.svg")
 
@@ -309,47 +309,47 @@
           i.fas.fa-check
           p.mb-0
             strong Estrategias de integración:
-            | este tipo de estrategia busca el dominio o el control de los distribuidores, de los proveedores o de la competencia. Dentro de estas estrategias podemos encontrar integración hacia delante, integración hacia atrás e integración horizontal.
+            |   este tipo de estrategia busca el dominio o el control de los distribuidores, de los proveedores o de la competencia. Dentro de estas estrategias podemos encontrar integración hacia delante, integración hacia atrás e integración horizontal.
         li
           i.fas.fa-check
           p.mb-0
             strong Estrategias intensivas:
-            | estas requieren un esfuerzo intenso para mejorar la posición competitiva de la empresa con los productos existentes; hay tres tipos de estrategias intensivas: penetración en el mercado, desarrollo del mercado y desarrollo del producto
+            |   estas requieren un esfuerzo intenso para mejorar la posición competitiva de la empresa con los productos existentes; hay tres tipos de estrategias intensivas: penetración en el mercado, desarrollo del mercado y desarrollo del producto
         li
           i.fas.fa-check
           p.mb-0
             strong Estrategias de diversificación:
-            | con este tipo de estrategias la organización diversifica la cartera de productos y/o servicios que es capaz de ofrecer.
+            |   con este tipo de estrategias la organización diversifica la cartera de productos y/o servicios que es capaz de ofrecer.
         li
           i.fas.fa-check
           p.mb-0
             strong Estrategias defensivas:
-            | surgen cuando existe la necesidad de resguardar los activos de la empresa, los mercados como clientes y proveedores. Entre esas estrategias se encuentran: las estrategias de riesgo compartido, de encogimiento, desinversión y liquidación (Pérez, 2021).
+            |   surgen cuando existe la necesidad de resguardar los activos de la empresa, los mercados como clientes y proveedores. Entre esas estrategias se encuentran: las estrategias de riesgo compartido, de encogimiento, desinversión y liquidación (Pérez, 2021).
         li
           i.fas.fa-check
           p.mb-0
             strong Estrategias de crecimiento:
-            | se emplean para ampliar ventas, mercados y beneficios. <br>Estrategias de estabilidad: cuando se mantiene el tamaño y la línea de negocios no tienden a crecer en ventas o el desarrollo de nuevos productos o mercados (Pérez, 2021).
+            |   se emplean para ampliar ventas, mercados y beneficios. <br>Estrategias de estabilidad: cuando se mantiene el tamaño y la línea de negocios no tienden a crecer en ventas o el desarrollo de nuevos productos o mercados (Pérez, 2021).
         li
           i.fas.fa-check
           p.mb-0
             strong Estrategias de reducción:
-            | cuando los negocios no van bien y se decide reducir la organización, esto puede hacerse mediante la reorientación o cambio de negocio, para ello se realizan cortes de trabajadores, costos de distribución, etc. (Pérez, 2021).
+            |   cuando los negocios no van bien y se decide reducir la organización, esto puede hacerse mediante la reorientación o cambio de negocio, para ello se realizan cortes de trabajadores, costos de distribución, etc. (Pérez, 2021).
         li
           i.fas.fa-check
           p.mb-0
             strong Las estrategias genéricas:
-            | muchas organizaciones operan en múltiples actividades en diferentes entornos y bajo numerosas circunstancias. Este tipo de estrategias debe responder a la pregunta: ¿cómo se debe competir en el negocio escogido? Pérez, 2021).
+            |   muchas organizaciones operan en múltiples actividades en diferentes entornos y bajo numerosas circunstancias. Este tipo de estrategias debe responder a la pregunta: ¿cómo se debe competir en el negocio escogido? Pérez, 2021).
         li
           i.fas.fa-check
           p.mb-0
             strong Liderazgo en conocimiento:
-            | este tipo de estrategia se propone a raíz de la importancia que cobra el conocimiento en el presente siglo, ya que cuanto mayor sea el conocimiento que posea la organización mayor diferenciación logrará en relación con las demás (Pérez, 2021).
+            |   este tipo de estrategia se propone a raíz de la importancia que cobra el conocimiento en el presente siglo, ya que cuanto mayor sea el conocimiento que posea la organización mayor diferenciación logrará en relación con las demás (Pérez, 2021).
         li
           i.fas.fa-check
           p.mb-0
             strong Estrategias funcionales:
-            | las estrategias funcionales contribuyen al cumplimiento de los objetivos, y de las estrategias maestras y/o de las de los diferentes sistemas o unidades estratégicas de actividades de una organización (Pérez, 2021).
+            |   las estrategias funcionales contribuyen al cumplimiento de los objetivos, y de las estrategias maestras y/o de las de los diferentes sistemas o unidades estratégicas de actividades de una organización (Pérez, 2021).
       figure
         img(src="@/assets/curso/tema2-img24.svg")
 

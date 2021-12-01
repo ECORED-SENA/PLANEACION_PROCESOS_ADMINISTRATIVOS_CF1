@@ -32,6 +32,12 @@ export default {
             titulo: 'Técnicas de recolección de información',
             hash: 't_1_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Herramientas de diagnóstico empresarial',
+            hash: 't_1_2',
+          },
         ],
       },
       {
@@ -251,7 +257,7 @@ export default {
     },
     {
       texto:
-        'Despegue media. (2021). El poder de la estrategia en los negocios y marketing. [Video]. YouTube.',
+        'Despegue media. (2021). El poder de la estrategia en los negocios y <i>marketing</i>. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=jwiV9gbjEi8',
     },
@@ -269,7 +275,30 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Sandra Milena Pacheco Llanes',
+        cargo: 'Experta Temático',
+        centro:
+          'Centro para la Industria, el Empleo y los Servicios - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Gloria Lida Álzate Suárez',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro: 'Centro de la gestión industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -285,25 +314,25 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Carlos Julián Ramírez Benítez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Sergio Omar Camacho Orduz',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'PENDIENTE',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

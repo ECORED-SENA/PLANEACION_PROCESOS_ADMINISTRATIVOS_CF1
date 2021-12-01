@@ -75,7 +75,7 @@
       span Enfoque
 
     .row(data-aos="fade-down" data-aos-duration="600")
-      .col-lg-9
+      .col-lg-11
         figure.mb-5
           img(src="@/assets/curso/tema3-img2.svg")
 
@@ -84,7 +84,10 @@
     #t_3_2.titulo-segundo.color-primario(data-aos="fade-down" data-aos-duration="600")
       h2 3.2  Objetivos y metas
 
-    p.mb-5(data-aos="fade-down" data-aos-duration="600") Los objetivos son acciones o pasos concretos que realizan las compañías para alcanzar un propósito en particular. Por ello, incluyen fechas límite y restricciones presupuestales. Por su parte, las metas son el resultado de una serie de condiciones que una empresa desea alcanzar en un determinado espacio de tiempo. Se componen de acciones y objetivos que permiten el logro de un propósito organizacional.
+    p.mb-5(data-aos="fade-down" data-aos-duration="600") Los objetivos son acciones o pasos concretos que realizan las compañías para alcanzar un propósito en particular. Por ello, incluyen fechas límite y restricciones presupuestales.
+      br
+      br
+      | Por su parte, las metas son el resultado de una serie de condiciones que una empresa desea alcanzar en un determinado espacio de tiempo. Se componen de acciones y objetivos que permiten el logro de un propósito organizacional.
 
     .row.justify-content-center.mb-5(data-aos="fade-left" data-aos-duration="600")
       .col-lg-2

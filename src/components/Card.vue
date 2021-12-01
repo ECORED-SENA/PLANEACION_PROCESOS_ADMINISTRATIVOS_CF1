@@ -4,7 +4,7 @@
     .w-auto.mb-0.py-2.px-3.title
       strong {{ title }}
   .tarjeta.color-acento-botones.px-5.py-4.border-radius-no-card
-    p.mb-0.me-5 {{ description }}
+    p.mb-0.me-5(v-html="description")
   img.card-image(:src="img")
 </template>
 
