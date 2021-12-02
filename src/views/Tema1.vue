@@ -134,7 +134,17 @@
 
     p.mb-5(data-aos="fade-down" data-aos-duration="600") Todo proceso investigativo requiere recolectar información para conocer el objeto de estudio. Dicha información es recopilada por medio de técnicas cuantitativas y cualitativas de recolección de información. Lo mismo sucede al realizar un diagnóstico empresarial, se requieren ciertas técnicas para recopilar la información de la situación real de una empresa; a continuación, se relacionan las más comunes para realizar un diagnóstico:
 
-    h2 Pendiente DI
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        .row
+          .col(data-aos="fade-left" data-aos-duration="600")
+            .indicador__container
+              .indicador--click
+            figure.button-temp(@click="updateModal('Técnicas Cualitativas', content6, 'small')")
+              img(src="@/assets/curso/tema1-img26.svg")
+          .col(data-aos="fade-up" data-aos-duration="600")
+            figure.button-temp(@click="updateModal('Técnicas Cuantitativas', content7, 'small')")
+              img(src="@/assets/curso/tema1-img27.svg")
 
     Separador
 
@@ -274,7 +284,7 @@
             figure.p-5
               img(src="@/assets/curso/tema1-img20.svg")
 
-    ModalA(:abrir-modal.sync="modal1")
+    ModalA(:abrir-modal.sync="modal1" :class="size === 'small' ? 'minus' : ''")
       .row.align-items-center
         .col-12.mb-4.mb-md-0
           h4.mb-5 {{ title }}
@@ -294,6 +304,7 @@ export default {
   data: () => ({
     // variables de vue
     modal1: false,
+    size: 'normal',
     title: '',
     content: '',
     content1: `
@@ -352,6 +363,55 @@ export default {
             <br>
             <br>
             <strong>Sostenibilidad</strong>. Se refiere a satisfacer las necesidades de la actual generación, sin afectar el entorno, las diferentes especies y ecosistemas con la intención de dar cumplimiento a los objetivos individuales de un sector industrial específico o del ser humano. `,
+    content6: `<div class="row justify-content-center align-items-center">
+      <div class="col-lg-10 mb-lg-2 mb-5">
+        <p class="mb-0">
+          <strong>Observación:</strong>
+          <span>  quien hace el diagnóstico puede hacer como si fuera parte del grupo (observación participante), o también puede observarlos desde fuera (observación no participante u ordinaria). Por ejemplo. Largas filas de espera para atención de clientes.</span>
+        </p>
+      </div>
+      <div class="col-lg-2 mb-lg-2 mb-5">
+        <figure><img src="${require('@/assets/curso/tema1-img28.svg')}" ></figure>
+      </div>
+      <div class="col-lg-10 mb-lg-2 mb-5">
+        <p class="mb-0">
+          <strong>Entrevistas individuales:</strong>
+          <span>  permite recoger desde los mínimos detalles en una conversación personal mediante un guion que puede modificarse con cada miembro de una organización de acuerdo con el rol que tiene asignado.</span>
+        </p>
+      </div>
+      <div class="col-lg-2 mb-lg-2 mb-5">
+        <figure><img src="${require('@/assets/curso/tema1-img29.svg')}" ></figure>
+      </div>
+      <div class="col-lg-10 mb-lg-0 mb-5">
+        <p class="mb-0">
+          <strong>Grupos focales:</strong>
+          <span>  sesiones de grupo con una discusión dirigida para conocer opiniones o actitudes.</span>
+        </p>
+      </div>
+      <div class="col-lg-2">
+        <figure><img src="${require('@/assets/curso/tema1-img30.svg')}" ></figure>
+      </div>
+    </div>`,
+    content7: `<div class="row justify-content-center align-items-center">
+      <div class="col-lg-10 mb-lg-2 mb-5">
+        <p class="mb-0">
+          <strong>Análisis de documentos:</strong>
+          <span>  quien hace el diagnóstico reunirá una colección de cifras y estadísticas de la organización: ventas, utilidades, devoluciones analiza comportamientos y tendencias.</span>
+        </p>
+      </div>
+      <div class="col-lg-2 mb-lg-2 mb-5">
+        <figure><img src="${require('@/assets/curso/tema1-img31.svg')}" ></figure>
+      </div>
+      <div class="col-lg-10 mb-lg-2 mb-5">
+        <p class="mb-0">
+          <strong>Encuesta: </strong>
+          <span>  la información recolectada a través de esta técnica se emplea para un análisis cuantitativo con el objetivo de conocer e identificar la magnitud de los problemas que se conocen o se suponen de forma imprecisa o parcial. El método que se utiliza para aplicar la encuesta es el instrumento llamado cuestionario.</span>
+        </p>
+      </div>
+      <div class="col-lg-2 mb-lg-2 mb-5">
+        <figure><img src="${require('@/assets/curso/tema1-img32.svg')}" ></figure>
+      </div>
+    </div>`,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -362,10 +422,11 @@ export default {
     this.$aosRefresh()
   },
   methods: {
-    updateModal(title, content) {
+    updateModal(title, content, size = 'normal') {
       this.modal1 = true
       this.title = title
       this.content = content
+      this.size = size
     },
     openNewTab(url) {
       window.open(url, '_blank')

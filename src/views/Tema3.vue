@@ -268,7 +268,7 @@
     p.mb-5(data-aos="fade-down" data-aos-duration="600") Para la efectiva planeación del proceso administrativo es de vital importancia realizar diagnóstico y análisis del panorama en el que se desenvuelve una organización. Para realizar un diagnóstico empresarial se pueden aplicar técnicas de recolección de información como la observación, la entrevista y la encuesta. Una vez recolectada la información se organiza en matrices como la matriz DOFA, el diagrama de Pareto o el diagrama de causa y efecto entre otros, con el fin de facilitar el análisis de la información recolectada. Para realizar el análisis estratégico se pueden aplicar metodología como la matriz de análisis DOFA cruzada, matriz PEYEA y matriz BCG, las cuales facilitan el establecimiento de estrategias que, convertidas en un plan de acción mediante el diagrama de Gantt, permite gestionar todo lo necesario para ejecutar lo planeado. Todo este proceso debe estar direccionado estratégicamente por la misión, visión y políticas establecidas por la organización.
 
     figure(data-aos="fade-right" data-aos-duration="600")
-      img(src="@/assets/curso/tema3-img11.svg")
+      img(src="@/assets/curso/tema3-img13.svg")
 
 </template>
 
