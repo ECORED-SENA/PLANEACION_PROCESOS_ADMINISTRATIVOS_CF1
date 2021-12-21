@@ -197,38 +197,38 @@
     p.mb-5(data-aos="fade-down" data-aos-duration="600")
       strong La matriz DOFA está compuesta por los siguientes elementos:
 
-    .row.mb-5.g-4
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.d-flex(data-aos="fade-up" data-aos-duration="600")
+    .row.mb-5.gx-1
+      .col-6.col-md-4.col-lg-3.mb-4.mb-lg-0.d-flex(data-aos="fade-up" data-aos-duration="600")
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1-img13.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h1 Debilidades
+            .tarjeta-flip__contenido.p-3.p-xl-5
+              h2 Debilidades
               p Debilidades. Hace parte del diagnóstico interno de la empresa. Con este factor se busca aquellos elementos que afectan su desempeño o limitan la actividad. Los elementos negativos pueden evitar que alcances los objetivos propuestos, y todos ellos son los que debes ubicar en la casilla de debilidades.
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.d-flex(data-aos="fade-left" data-aos-duration="600")
+      .col-6.col-md-4.col-lg-3.mb-4.mb-lg-0.d-flex(data-aos="fade-left" data-aos-duration="600")
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1-img14.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h1 Oportunidades
+            .tarjeta-flip__contenido.p-3.p-xl-5
+              h2 Oportunidades
               p Para analizarlas necesitas observar fuera de la compañía. Son aquellas que pueden jugar a favor de tu operación, ayudarte a crecer y mejorar sus beneficios. No importa el límite de las oportunidades, las podrás encontrar en el incremento de precios de la competencia, en una oportunidad de exportación, entre muchas otras.
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.d-flex(data-aos="fade-right" data-aos-duration="600")
+      .col-6.col-md-4.col-lg-3.mb-4.mb-lg-0.d-flex(data-aos="fade-right" data-aos-duration="600")
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1-img15.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h1 Fortalezas
+            .tarjeta-flip__contenido.p-3.p-xl-5
+              h2 Fortalezas
               p Este factor también se relaciona con elementos internos de la empresa. Evidencia los elementos positivos de la labor que desempeña, la hace más competitiva y le permite lograr sus objetivos. Estos puntos fuertes son los que escribes en la casilla fortalezas.
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.d-flex(data-aos="fade-down" data-aos-duration="600")
+      .col-6.col-md-4.col-lg-3.mb-4.mb-lg-0.d-flex(data-aos="fade-down" data-aos-duration="600")
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
+          .tarjeta-flip__contenedor(style="max-width: 100%")
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1-img16.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              h1 Amenazas
+            .tarjeta-flip__contenido.p-3.p-xl-5
+              h2 Amenazas
               p Al realizar el análisis externo también encontrarás amenazas que son factores que impedirán el crecimiento de la empresa, evitarán que la estrategia que estás desempeñando o implementarás pueda seguir adelante. Si conoces las amenazas, será más fácil afrontarlas.
 
     .row.mb-5.justify-content-center(data-aos="fade-down" data-aos-duration="600")
@@ -367,7 +367,7 @@ export default {
       <div class="col-lg-10 mb-lg-2 mb-5">
         <p class="mb-0">
           <strong>Observación:</strong>
-          <span>  quien hace el diagnóstico puede hacer como si fuera parte del grupo (observación participante), o también puede observarlos desde fuera (observación no participante u ordinaria). Por ejemplo. Largas filas de espera para atención de clientes.</span>
+          <span>  quien hace el diagnóstico puede hacer como si fuera parte del grupo (observación participante), o también puede observarlos desde fuera (observación no participante u ordinaria). Por ejemplo: Largas filas de espera para atención de clientes.</span>
         </p>
       </div>
       <div class="col-lg-2 mb-lg-2 mb-5">
