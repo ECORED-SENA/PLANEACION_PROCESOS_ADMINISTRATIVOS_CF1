@@ -268,9 +268,9 @@
               img(src="@/assets/curso/tema1-img19_5.svg")
 
 
-        figure.mb-5
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/84fuGpQeYg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        //- figure.mb-5
+        //-   .video
+        //-     iframe(width="560" height="315" src="https://www.youtube.com/embed/84fuGpQeYg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         .row.multicolor.align-items-center.mb-5.clicker(@click="openNewTab(obtenerLink('/downloads/Anexo_2_plantilla_matriz_DOFA.xlsx'))")
           .col-lg-8
             .indicador__container
